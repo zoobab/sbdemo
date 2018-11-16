@@ -1,4 +1,5 @@
-Helloworld in Springboot, with gitlab-ci/cd
-===========================================
+Helloworld in Springboot, with gitlab-ci and Kubernetes
+=======================================================
 
-desc here 1
+This demo builds a simple helloworld in Springboot, makes Docker container, and
+deploys it in a Kubernetes cluster.
