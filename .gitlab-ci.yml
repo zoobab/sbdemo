@@ -9,7 +9,7 @@ stages:
   - cleanup
 
 variables:
-  OPENSHIFT_SERVER: https://master-mwattiez.openshift.dev.isabelteam.be:8443
+  OPENSHIFT_SERVER: https://master-zoobab2015.openshift.dev.isabelteam.be:8443
   # OPENSHIFT_DOMAIN: apps.example.com
   # Configure this variable in Secure Variables:
   # OPENSHIFT_TOKEN: my.openshift.token
@@ -28,6 +28,7 @@ test2:
 
 .deploy: &deploy
   before_script:
+    - echo "Trying to login..."
     - oc login "$OPENSHIFT_SERVER" --token="$OPENSHIFT_TOKEN" --insecure-skip-tls-verify
     - oc project "$CI_PROJECT_NAME-$CI_PROJECT_ID" 2> /dev/null || oc new-project "$CI_PROJECT_NAME-$CI_PROJECT_ID"
   script:
