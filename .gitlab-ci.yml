@@ -9,7 +9,7 @@ stages:
   - cleanup
 
 variables:
-  OPENSHIFT_SERVER: openshift.default.svc.cluster.local
+  OPENSHIFT_SERVER: master-mwattiez.openshift.dev.isabelteam.be:8443
   # OPENSHIFT_DOMAIN: apps.example.com
   # Configure this variable in Secure Variables:
   # OPENSHIFT_TOKEN: my.openshift.token
