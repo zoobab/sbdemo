@@ -1,5 +1,5 @@
-Helloworld in Springboot, with gitlab-ci and Kubernetes
-=======================================================
+Helloworld in Springboot, with Docker and Kubernetes
+====================================================
 
 This demo builds a simple helloworld in Springboot, makes Docker container, and
 deploys it in a Kubernetes cluster.
@@ -45,3 +45,13 @@ Then hit port 8080 with curl:
 $ curl localhost:8080
 Hello World 15H10!
 ```
+
+Kubernetes yaml
+===============
+
+TODO
+
+Openshift s2i
+=============
+
+To document here
