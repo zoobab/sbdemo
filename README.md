@@ -54,4 +54,6 @@ TODO
 Openshift s2i
 =============
 
-To document here
+Do a step by step procedure with screenshots based on this:
+
+https://developers.redhat.com/blog/2017/02/23/getting-started-with-openshift-java-s2i/
