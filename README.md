@@ -56,4 +56,6 @@ Openshift s2i
 
 Do a step by step procedure with screenshots based on this:
 
+Dumb commit to test S2I 
+
 https://developers.redhat.com/blog/2017/02/23/getting-started-with-openshift-java-s2i/
