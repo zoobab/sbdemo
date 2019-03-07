@@ -8,7 +8,7 @@ public class Example {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World 15H10!";
+		return "Hello World 15H20!";
 	}
 
 	public static void main(String[] args) throws Exception {
