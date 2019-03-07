@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class Example {
 
-	@RequestMapping("/")
+	@RequestMapping(value="/", produces={"application/json"})
 	String home() {
 		return "{ "hello": "world" }";
 	}
