@@ -60,6 +60,14 @@ Here is a simple step by step procedure to have an Springboot Hello World: https
 
 ```
 $ oc new-project myproject
+Now using project "myproject" on server "https://master-c1.openshift.zoobab.com:8443".
+
+You can add applications to this project with the 'new-app' command. For example, try:
+
+    oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git
+
+to build a new example application in Ruby.
+$ 
 ```
 
 ## Step 2: install the 'sdk'
